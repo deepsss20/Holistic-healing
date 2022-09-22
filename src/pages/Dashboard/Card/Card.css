@@ -1,0 +1,43 @@
+.service-inner-card-container{
+    border-top: 1px solid gray;
+    margin: 10px;
+}
+
+.service-time-card-container{
+    padding-top: 15px;
+    text-align: center;
+    color:#78746b;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.service-name-card-container{
+    padding-top: 5px;
+    text-align: center;
+    color:#28231e;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.service-desc-card-container{
+    padding-top: 5px;
+    text-align: center;
+    color:#78746b;
+}
+
+.service-price-card-container{
+    padding-top: 5px;
+    text-align: center;
+    color:#78746b;
+}
+
+.service-location-card-container{
+    padding-top: 5px;
+    text-align: center;
+    color:#78746b;
+}
+
+.link-style{
+    color: #cf4520;
+    padding-left: 5px;
+}

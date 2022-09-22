@@ -1,0 +1,7 @@
+.App {
+  display: flex;
+  flex:1;
+  background-color: lavender;
+  min-height: 100vh;
+}
+
