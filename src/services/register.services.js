@@ -5,7 +5,6 @@ export const registerApi = createApi({
     baseQuery:fetchBaseQuery({
         baseUrl:"http://localhost:8080/api"
     }),
-    // tagTypes:["Register"],
     endpoints:(builder)=>{
         return(
             {
@@ -15,7 +14,6 @@ export const registerApi = createApi({
                         method:"POST",
                         body,
                     }),
-                    // invalidatesTags:["Register"]
                 }),
                 userLogin:builder.mutation({
                     query:(body)=>({
