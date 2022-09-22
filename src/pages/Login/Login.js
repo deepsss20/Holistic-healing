@@ -25,7 +25,7 @@ const Login = () => {
     registrationError: "",
   };
   const [state, setState] = useState(initialState);
-  console.log("here")
+  console.log("here2")
   const inputChangeHandler = (event, id) => {
     setState((prev) => {
       return {
